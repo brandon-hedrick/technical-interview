@@ -26,8 +26,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">My Connections</h1>
-          <Button 
-            primary onClick={() => this.openModal()}>Add New Connection</Button>
+          <Button primary onClick={() => this.openModal()}>Add New Connection</Button>
         </header>
         <CardGroup>
           {
